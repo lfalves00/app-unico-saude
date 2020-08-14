@@ -1,0 +1,37 @@
+# ENTIDADES DB
+
+## LOCALS (CLINICAS)
+ * TITLE
+ * IMAGE
+ * TELLPHONE
+ * UF
+ * CITY
+ * HOOD
+
+## SPECIALTY (ESPECIALIDADES OFERECIDAS)
+ * TITLE
+
+## LOCAL_SPECIALTYS (RELACIONAMENTO DAS ESPECIALIDADES OFERECIDAS EM UMA CLINICA)
+ * LOCAL_ID
+ * ITEM ID
+ obs: Muitos para Muitos (N-N, Pivot)
+
+ ## USERS - Cliente
+  - Apenas consomem os dados
+  * NOME
+  * EMAIL
+  * CPF(senha)
+  * VALIDADE
+  * PLANO
+
+## USERS - Admin
+ - Poder de criar novos usuários e alimentar a tabela de clinicas e especialidades
+ * EMAIL
+ * SENHA
+
+# FUNCIONALIDADES DA APLICAÇÃO
+
+## CADASTRO DE CLINICA
+## LISTA AS ESPECIALIDADES DA CLINICA
+## LISTA CLINICAS(FILTRO POR ESTADO/CIDADE E ESPECIALIDADES)
+
